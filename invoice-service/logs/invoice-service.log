@@ -1,0 +1,33 @@
+2026-10-29 20:03:28.233 [AsyncResolver-bootstrap-executor-%d] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2026-10-29 20:03:29.433 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2026-10-29 20:03:29.591 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.s.c.n.e.s.EurekaServiceRegistry - Unregistering application INVOICE-SERVICE with eureka with status DOWN
+2026-10-29 20:03:29.595 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1793284409594, current=DOWN, previous=UP]
+2026-10-29 20:03:29.597 [DiscoveryClient-InstanceInfoReplicator-%d] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/LAPTOP-MTJE5IA5:invoice-service: registering service...
+2026-10-29 20:03:29.654 [DiscoveryClient-InstanceInfoReplicator-%d] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - DiscoveryClient_INVOICE-SERVICE/LAPTOP-MTJE5IA5:invoice-service - registration status: 204
+2026-10-29 20:03:29.858 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2026-10-29 20:03:30.649 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-29 20:03:30.763 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-10-29 20:03:30.856 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-10-29 20:03:31.292 [RMI TCP Connection(60)-172.20.10.3] INFO 
+				[invoice-service,traceId=,spanId=]
+				c.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
